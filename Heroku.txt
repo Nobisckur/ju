@@ -1,0 +1,37 @@
+CREATION EN LIGNE 
+
+Créer à la racine du projet les fichiers : composer.json et dedans = {}
+					 : index.php = <?php include_once("index.html"); ?>
+Git hub -> profil -> repository
+new
+créer le repo = nom et tout bordel
+clique droit racine du dossier gitbash cmd
+g
+git init
+git status
+git add .
+git status
+git commit -m "First commit"
+
+retourner sur git hub sur le repo git hub pour copier le lien 
+
+git remote add origin /le lien/
+git remote -v 
+(pour verifier)
+git push (copier le git push --set-upstream origin master si besoin)
+
+heroku = news
+deployement methode = github
+mettre le nom du site sur git hub dans heruku puis connect
+
+disable automatique deployed
+deployed branch
+____________________________________________________
+
+UPDATE
+
+git status
+git add .
+git commit -m "nom du commit"
+git push
+

@@ -1,0 +1,74 @@
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    <link rel="stylesheet" media="screen" href="../style.css"/>
+    <title>J&N</title>
+    <link rel="icon" type="image/png" href="../assets/img/fav.png"/>
+
+</head>
+<body>
+
+
+<div id="crono">
+
+    <p id="ans"> 0 ans</p>
+    <!-- <p id="mois"> mois</p> -->
+    <p id="jours"> jours</p>
+    <p id="heures"> heures</p>
+    <p id="min"> minutes</p>
+    <p id="sec"> secondes</p>
+    <!-- <p id="mili"> milisecondes</p> -->
+
+</div>
+
+
+
+<nav>
+    <div class="logo"><a href="../index.html"><img id="photos" src="../assets/img/photos.png" /></a></div>
+    <div class="logo"><a href="../page2/index.html"><img id="list" src="../assets/img/list.png" /></a></div>
+    <div class="logo"><a href="../page3/index.html"><img id="temps" src="../assets/img/temps.png" /></a></div>
+    <div class="logo"><a href="../page4/index.html"><img id="temps" src="../assets/img/audio.png" /></a></div>
+</nav>
+
+<SCRIPT>
+        let date2 = Date.now();
+        let date1 = new Date(2021,09,28,0,0,0);
+
+        function dateDiff(date1, date2) {
+            var diff = {};                  // Initialisation du retour
+            var tmp = date2 - date1;
+
+            tmp = Math.floor(tmp / 1000);             // Nombre de secondes entre les 2 dates
+            diff.sec = tmp % 60;                    // Extraction du nombre de secondes
+
+            tmp = Math.floor((tmp - diff.sec) / 60);    // Nombre de minutes (partie entière)
+            diff.min = tmp % 60;                    // Extraction du nombre de minutes
+
+            tmp = Math.floor((tmp - diff.min) / 60);    // Nombre d'heures (entières)
+            diff.hour = tmp % 24;                   // Extraction du nombre d'heures
+
+            tmp = Math.floor((tmp - diff.hour) / 24);   // Nombre de jours restants
+            diff.day = tmp;
+
+
+            return diff;
+        }
+
+        let jours= document.getElementById("jours");
+        jours.textContent =dateDiff(date1,date2).day + " jours";
+        let heures= document.getElementById("heures");
+        heures.textContent =dateDiff(date1,date2).hour + " heures";
+        let minutes= document.getElementById("min");
+        minutes.textContent =dateDiff(date1,date2).min + " minutes";
+        let sec= document.getElementById("sec");
+        sec.textContent =dateDiff(date1,date2).sec + " sec";
+
+        console.log(dateDiff(date1,date2).day);
+        // window.location.reload();
+
+
+</SCRIPT>
+</body>
+</html>
