@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ad4bf53-69e8-4cd5-88ae-fb985ee159f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page1/photos/audio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page1/photos/photos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page1/script.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/page2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page4/audios/audio (2).mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page4/audios/audio (3).mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page4/audios/m4a/audio (1).m4a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page4/audios/m4a/audio (2).m4a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page4/audios/m4a/audio (3).m4a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page4/audios/m4a/audio (4).m4a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +45,8 @@
       <updated>1637187175341</updated>
       <workItem from="1637187181345" duration="12063000" />
       <workItem from="1637709302804" duration="6937000" />
+      <workItem from="1638544858405" duration="600000" />
+      <workItem from="1638973791195" duration="1094000" />
     </task>
     <servers />
   </component>
